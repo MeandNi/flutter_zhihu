@@ -15,7 +15,17 @@ class _CompusPageState extends State<CompusPage> {
       ),
       body: ListView(
         children: <Widget>[
-          Text("sss"),
+          Row(
+            children: <Widget>[
+              Container(
+                width: 90,
+                  child: Text(
+                      "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+                    overflow: TextOverflow.ellipsis,
+                  )
+              ),
+            ],
+          ),
           Text("sss"),
           Text("sss"),
           Text("sss"),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_zhihu/myhome/RecommendPage.dart';
+import 'package:flutter_zhihu/myhome/myhome_list.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -82,10 +82,10 @@ class _MyHomePageState extends State<MyHomePage>
       body: new TabBarView(
         controller: _tabController,
         children: <Widget>[
-          new Text("1"),
-          RecommendPage(),
-          new Text("3"),
-          new Text("4"),
+          MyHomeListView(),
+          MyHomeListView(),
+          MyHomeListView(),
+          MyHomeListView(),
         ],
       ),
     );

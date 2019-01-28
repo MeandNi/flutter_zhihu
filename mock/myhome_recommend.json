@@ -1,0 +1,823 @@
+{
+  "data": [
+    {
+      "id": "0_1548512325.999",
+      "type": "feed",
+      "offset": 0,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1548512325,
+      "updated_time": 1548512325,
+      "target": {
+        "id": 516686738,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/516686738",
+        "author": {
+          "id": "83c2b0adf470cea4a59a09f39a42a29d",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/83c2b0adf470cea4a59a09f39a42a29d",
+          "user_type": "people",
+          "url_token": "tian-qing-yu-51",
+          "name": "笔芯设计匠",
+          "headline": "曾胆怯爱，更胆怯",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-c6cf37483d280534a80b66997f4dc2b9_m.jpg",
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1540280510,
+        "updated_time": 1540444315,
+        "voteup_count": 434,
+        "thanks_count": 123,
+        "comment_count": 96,
+        "is_copyable": false,
+        "question": {
+          "id": 289923860,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/289923860",
+          "author": {
+            "id": "8314afe6da1b3623d0e9fbd183bc107e",
+            "type": "people",
+            "url": "https://api.zhihu.com/people/8314afe6da1b3623d0e9fbd183bc107e",
+            "user_type": "people",
+            "url_token": "yem-59",
+            "name": "eschere",
+            "headline": "前端/懂点化学",
+            "avatar_url": "https://pic4.zhimg.com/50/da8e974dc_m.jpg",
+            "is_org": false,
+            "gender": 0,
+            "badge": [],
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "2018年初级前端的标准是什么，会vue等在一线城市待遇怎么样？",
+          "created": 1534064164,
+          "answer_count": 50,
+          "follower_count": 586,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            225,
+            7912,
+            66416,
+            159435,
+            199980
+          ],
+          "is_following": false,
+          "excerpt": "会vue,webpack,sass,cordovar,移动端，现在在一线城市的平均水平是多少。本人苦于没有工作经验，自认为技术实力还行，公司开的工资普通在试用期6k左右。有经验的大佬分享一下现在前端的要求，热门的发展方向，谢谢！"
+        },
+        "thumbnail": "",
+        "excerpt": "在中国互联网行业崛起的大背景下，大家普遍对互联网行业发展持乐观态度。Web前端工程师的岗位职责是利用HTML、CSS、JavaScript、DOM等各种web技能结合产品的界面开发，制作标准化纯手工代码，并增加交互功能，丰富互联网的Web开拓，致力于改进用户体验。 2018年…",
+        "excerpt_new": "在中国互联网行业崛起的大背景下，大家普遍对互联网行业发展持乐观态度。Web前端工程师的岗位职责是利用HTML、CSS、JavaScript、DOM等各种web技能结合产品的界面开发，制作标准化纯手工代码，并增加交互功能，丰富互联网的Web开拓，致力于改进用户体验。 2018年…",
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 516686738}",
+      "uninterest_reasons": [
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19550901",
+          "object_type": "topic",
+          "reason_text": "前端开发"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19749040",
+          "object_type": "topic",
+          "reason_text": "前端招聘"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "20022242",
+          "object_type": "topic",
+          "reason_text": "Vue.js"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "20141158",
+          "object_type": "topic",
+          "reason_text": "前端薪资"
+        },
+        {
+          "reason_id": 2,
+          "reason_type": "creator",
+          "object_token": "83c2b0adf470cea4a59a09f39a42a29d",
+          "object_type": "people",
+          "reason_text": "笔芯设计匠创作的内容"
+        }
+      ],
+      "attached_info": "Cm8IyuuCkar41KBUEAQaCTEyNDAxMzcxMiC+obveBSiyAzBgQABKCgoBSBIBMBgAIABSDmhvdF9hZGRfYW5zd2VyWggyNjcwNDMyNHIJNTE2Njg2NzM4eAGKAQkyODk5MjM4NjCqAQlyZWNvbW1lbmQ=",
+      "actors": [
+        {
+          "id": "19550901",
+          "type": "topic",
+          "url": "https://api.zhihu.com/topics/19550901",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8e66233f5558e741bad3a8c50b9566c8_s.jpg",
+          "name": "前端开发",
+          "excerpt": "",
+          "introduction": "",
+          "meta": {
+            "id": 1023611024229822500,
+            "category": "n_wiki",
+            "type": "metapedia"
+          }
+        }
+      ],
+      "show_actor_time": false,
+      "action_text": "前端开发",
+      "action_text_tpl": "{}",
+      "action_card": false
+    },
+    {
+      "id": "1_1548512325.318",
+      "type": "feed",
+      "offset": 1,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1548512325,
+      "updated_time": 1548512325,
+      "target": {
+        "id": 582543100,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/582543100",
+        "author": {
+          "id": "93269abfdf93043a5f3c179ee3aefd83",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/93269abfdf93043a5f3c179ee3aefd83",
+          "user_type": "people",
+          "url_token": "ilikeilike",
+          "name": "杂乐集",
+          "headline": "公众号：「杂乐集」只为你分享优质音乐。",
+          "avatar_url": "https://pic2.zhimg.com/50/v2-4d2cd7165575dcdc5892015b8fd68b09_m.jpg",
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1548492771,
+        "updated_time": 1548492771,
+        "voteup_count": 28,
+        "thanks_count": 2,
+        "comment_count": 2,
+        "is_copyable": true,
+        "question": {
+          "id": 21376146,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/21376146",
+          "author": {
+            "id": "347855d6085d5874e7372032fc8ac8a9",
+            "type": "people",
+            "url": "https://api.zhihu.com/people/347855d6085d5874e7372032fc8ac8a9",
+            "user_type": "people",
+            "url_token": "lotcup",
+            "name": "张敏杰",
+            "headline": "在这里",
+            "avatar_url": "https://pic2.zhimg.com/50/53452ce55_m.jpg",
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪些好听的歌曲串烧？",
+          "created": 1374589325,
+          "answer_count": 120,
+          "follower_count": 616,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            75,
+            88350
+          ],
+          "is_following": false,
+          "excerpt": "比如演唱会或者晚会上的，像张学友和林忆莲在金像奖上的串烧以及古巨基的《劲歌王》"
+        },
+        "thumbnail": "https://pic3.zhimg.com/v2-ae228e63adf82b8be11717a32a064b1e.jpg",
+        "thumbnail_extra_info": {
+          "video_id": "1072529231086632960",
+          "type": "video",
+          "url": "https://pic3.zhimg.com/v2-ae228e63adf82b8be11717a32a064b1e.jpg",
+          "height": 358,
+          "width": 640,
+          "duration": 579,
+          "playlist": {
+            "ld": {
+              "url": "https://vdn1.vzuu.com/LD/650acbde-2143-11e9-b608-0a580a45185d.mp4?disable_local_cache=1&bu=feedroot&expiration=1548515925&auth_key=1548515925-0-0-a3b73beccc181d80daba906bc21dd51a&f=mp4&v=hw",
+              "bitrate": 533,
+              "duration": 579,
+              "format": "mp4",
+              "fps": 15,
+              "height": 358,
+              "size": 38605350,
+              "width": 640
+            },
+            "sd": {
+              "url": "https://vdn1.vzuu.com/LD/650acbde-2143-11e9-b608-0a580a45185d.mp4?disable_local_cache=1&bu=feedroot&expiration=1548515925&auth_key=1548515925-0-0-a3b73beccc181d80daba906bc21dd51a&f=mp4&v=hw",
+              "bitrate": 533,
+              "duration": 579,
+              "format": "mp4",
+              "fps": 15,
+              "height": 358,
+              "size": 38605350,
+              "width": 640
+            },
+            "hd": {
+              "url": "https://vdn1.vzuu.com/LD/650acbde-2143-11e9-b608-0a580a45185d.mp4?disable_local_cache=1&bu=feedroot&expiration=1548515925&auth_key=1548515925-0-0-a3b73beccc181d80daba906bc21dd51a&f=mp4&v=hw",
+              "bitrate": 533,
+              "duration": 579,
+              "format": "mp4",
+              "fps": 15,
+              "height": 358,
+              "size": 38605350,
+              "width": 640
+            }
+          },
+          "show_maker_entrance": false
+        },
+        "excerpt": "说到歌曲串烧，一定要提一提林大魔王的《十分十二寸》。 这首串烧歌曲将当时乐坛上流行的二十多首歌曲改编而成，并以林子祥那常人难以达到的高音演绎这首歌曲。整首歌曲长达十分钟，但是对于一向气息超稳的林子祥来说简直就是小菜一碟，你看他又跑又跳，不带喘…",
+        "excerpt_new": "说到歌曲串烧，一定要提一提林大魔王的《十分十二寸》。 这首串烧歌曲将当时乐坛上流行的二十多首歌曲改编而成，并以林子祥那常人难以达到的高音演绎这首歌曲。整首歌曲长达十分钟，但是对于一向气息超稳的林子祥来说简直就是小菜一碟，你看他又跑又跳，不带喘…",
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 582543100}",
+      "uninterest_reasons": [
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19550453",
+          "object_type": "topic",
+          "reason_text": "音乐"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19808677",
+          "object_type": "topic",
+          "reason_text": "歌曲串烧"
+        },
+        {
+          "reason_id": 2,
+          "reason_type": "creator",
+          "object_token": "93269abfdf93043a5f3c179ee3aefd83",
+          "object_type": "people",
+          "reason_text": "杂乐集创作的内容"
+        }
+      ],
+      "attached_info": "Cn4IyuuCkar41KBUEAQaCTEzNTk4NTY4OSDjv7DiBSgcMAJAAUoMCgJWVBICNzUYACABUhV2aWRlb3RvcGljX2FkZF9hbnN3ZXJaBjczMTE0MmiAgJGx8/SY8Q5yCTU4MjU0MzEwMHgiigEIMjEzNzYxNDaqAQlyZWNvbW1lbmQ=",
+      "actors": [
+        {
+          "id": "19550453",
+          "type": "topic",
+          "url": "https://api.zhihu.com/topics/19550453",
+          "avatar_url": "https://pic2.zhimg.com/50/v2-78b5c36faca65325a8007b143fab7cf2_s.png",
+          "name": "音乐",
+          "excerpt": "",
+          "introduction": "",
+          "meta": {
+            "id": 1023617223830716400,
+            "category": "n_wiki",
+            "type": "metapedia"
+          }
+        }
+      ],
+      "show_actor_time": false,
+      "action_text": "音乐",
+      "action_text_tpl": "{}",
+      "action_card": false
+    },
+    {
+      "id": "2_1548512325.760",
+      "type": "feed",
+      "offset": 2,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1548512325,
+      "updated_time": 1548512325,
+      "target": {
+        "id": 545810021,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/545810021",
+        "author": {
+          "id": "d8307a16de251bc18c8518ccf653941f",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/d8307a16de251bc18c8518ccf653941f",
+          "user_type": "people",
+          "url_token": "shu-ju-ku-suo-si-liao",
+          "name": "数据库锁死了",
+          "headline": "",
+          "avatar_url": "https://pic4.zhimg.com/50/da8e974dc_m.jpg",
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1543996893,
+        "updated_time": 1548398436,
+        "voteup_count": 1324,
+        "thanks_count": 285,
+        "comment_count": 441,
+        "is_copyable": true,
+        "question": {
+          "id": 61624754,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/61624754",
+          "author": {
+            "id": "23376e82cee64f4eec19749fb7f59118",
+            "type": "people",
+            "url": "https://api.zhihu.com/people/23376e82cee64f4eec19749fb7f59118",
+            "user_type": "people",
+            "url_token": "szzxiao-k",
+            "name": "冬瓜小豆豆",
+            "headline": "业余电子音乐制作人  WEB前端",
+            "avatar_url": "https://pic3.zhimg.com/50/v2-8bb947edc60ffaaf18de63c9d6542e80_m.jpg",
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "正在工作的程序员，生活状态什么样？",
+          "created": 1498457975,
+          "answer_count": 1357,
+          "follower_count": 12486,
+          "comment_count": 23,
+          "bound_topic_ids": [
+            707,
+            2844
+          ],
+          "is_following": false,
+          "excerpt": "看了大家的回答，做一个又浪又认真的码农好像挺难，我还是好好学习吧哈哈哈 ———以上是感受，以下是原题——— 我是即将大三也不久打算去实习做java项目的学生，对编程序挺感兴趣的。可是听同学说干码农这行每天加班要死要活，日日码代码没精力干别的事了，有个师兄做IT销售，不太辛苦，生活还算美滋滋。是真的吗？ 我也知道这社会干哪一行都不容易，可是觉得好像码农生活确实很单调。天天码代码，日常嗨一嗨浪一波都没时间，更别说有精力谈恋爱了。想问问在工作的各位前辈，你们的生活是怎么样的？ 到什么能力才能胜任自己的工作，早点下班呢？ 可能这想法有点天真哈哈哈（尤其深圳这地儿）"
+        },
+        "thumbnail": "",
+        "excerpt": "本人非计算机毕业（工业工程），三本院校，所以计算机基础没有，起点为0，去达内培训了3个月。。就出来找工作，出来的时候spring反正是不懂的，只会面试题，ioc，控制反转，aop，面向切面。这是知道的全部，不能再多了 当时面试了20多家，没有offer。。。终于找…",
+        "excerpt_new": "本人非计算机毕业（工业工程），三本院校，所以计算机基础没有，起点为0，去达内培训了3个月。。就出来找工作，出来的时候spring反正是不懂的，只会面试题，ioc，控制反转，aop，面向切面。这是知道的全部，不能再多了 当时面试了20多家，没有offer。。。终于找…",
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 545810021}",
+      "uninterest_reasons": [
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19558713",
+          "object_type": "topic",
+          "reason_text": "软件工程师"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19552330",
+          "object_type": "topic",
+          "reason_text": "程序员"
+        },
+        {
+          "reason_id": 2,
+          "reason_type": "creator",
+          "object_token": "d8307a16de251bc18c8518ccf653941f",
+          "object_type": "people",
+          "reason_text": "数据库锁死了创作的内容"
+        }
+      ],
+      "attached_info": "CnoIyuuCkar41KBUEAQaCTEyOTMwNjY4MyDdi57gBSisCjC5A0ACSgwKA1JFVBIBMBgAIABSF2ZlZWRyZV90b3BpY19hZGRfYW5zd2VyWggxNjg3NDQxNnIJNTQ1ODEwMDIxeA6KAQg2MTYyNDc1NKoBCXJlY29tbWVuZA==",
+      "actors": [
+        {
+          "id": "19552330",
+          "type": "topic",
+          "url": "https://api.zhihu.com/topics/19552330",
+          "avatar_url": "https://pic2.zhimg.com/50/acda162ad89c9b8995b51028d5233d1a_s.jpg",
+          "name": "程序员",
+          "excerpt": "",
+          "introduction": "",
+          "meta": {
+            "id": 1023621480239792100,
+            "category": "n_wiki",
+            "type": "metapedia"
+          }
+        }
+      ],
+      "show_actor_time": false,
+      "action_text": "程序员",
+      "action_text_tpl": "{}",
+      "action_card": false
+    },
+    {
+      "id": "3_1548512325.279",
+      "type": "feed",
+      "offset": 3,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1548512325,
+      "updated_time": 1548512325,
+      "target": {
+        "id": 568585012,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/568585012",
+        "author": {
+          "id": "a9066626341fb2e0bf4178b039485091",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/a9066626341fb2e0bf4178b039485091",
+          "user_type": "people",
+          "url_token": "crab-41",
+          "name": "Carbon",
+          "headline": "",
+          "avatar_url": "https://pic2.zhimg.com/50/b2dd57863a3e4879169ad1e9249417f6_m.jpg",
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1546855923,
+        "updated_time": 1546855923,
+        "voteup_count": 0,
+        "thanks_count": 1,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": 306270160,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/306270160",
+          "author": {
+            "id": "0a9ddfb09c45aaa1443ff301bf0343e5",
+            "type": "people",
+            "url": "https://api.zhihu.com/people/0a9ddfb09c45aaa1443ff301bf0343e5",
+            "user_type": "people",
+            "url_token": "963351704",
+            "name": "Du Vide",
+            "headline": "个人公众号  三水布衣",
+            "avatar_url": "https://pic3.zhimg.com/50/v2-44b55823af9c4c09d6fd373ccc36a3e7_m.jpg",
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "好听的老歌推荐，小众一点更好？",
+          "created": 1545213895,
+          "answer_count": 36,
+          "follower_count": 41,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            75,
+            508,
+            9614,
+            9973
+          ],
+          "is_following": true,
+          "excerpt": "推荐一下90年代好听的音乐，要写演唱者的姓名哦"
+        },
+        "thumbnail": "",
+        "excerpt": "王菲《色盲》我好像几天就循环了三百多次。词曲都太好。可以读出东西。我读出的是同妻的故事。 不知道你喜不喜欢港乐。2012黄伟文作品展里有很多老歌好听到爆炸啊尤其第三part全场高能。最近喜欢一首里面的一首老歌《绝》",
+        "excerpt_new": "王菲《色盲》我好像几天就循环了三百多次。词曲都太好。可以读出东西。我读出的是同妻的故事。\n不知道你喜不喜欢港乐。2012黄伟文作品展里有很多老歌好听到爆炸啊尤其第三part全场高能。最近喜欢一首里面的一首老歌《绝》",
+        "preview_type": "no_expand",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 568585012}",
+      "uninterest_reasons": [
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19550453",
+          "object_type": "topic",
+          "reason_text": "音乐"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19551728",
+          "object_type": "topic",
+          "reason_text": "推荐"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19580164",
+          "object_type": "topic",
+          "reason_text": "音乐推荐"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19579076",
+          "object_type": "topic",
+          "reason_text": "小众"
+        },
+        {
+          "reason_id": 2,
+          "reason_type": "creator",
+          "object_token": "a9066626341fb2e0bf4178b039485091",
+          "object_type": "people",
+          "reason_text": "Carbon 创作的内容"
+        }
+      ],
+      "attached_info": "Cn0IyuuCkar41KBUEAQaCTEzMzQ0Njg5MyDzy8zhBSgAMABAA0oRCgFREggzMDMzNjMzMhgAIAFSFnF1ZXN0aW9uX2NyZWF0ZV9hbnN3ZXJaCDMwMzM2MzMycgk1Njg1ODUwMTJ4F4oBCTMwNjI3MDE2MKoBCXJlY29tbWVuZA==",
+      "actors": [
+        {
+          "id": "19550453",
+          "type": "topic",
+          "url": "https://api.zhihu.com/topics/19550453",
+          "avatar_url": "https://pic2.zhimg.com/50/v2-78b5c36faca65325a8007b143fab7cf2_s.png",
+          "name": "音乐",
+          "excerpt": "",
+          "introduction": "",
+          "meta": {
+            "id": 1023617223830716400,
+            "category": "n_wiki",
+            "type": "metapedia"
+          }
+        }
+      ],
+      "show_actor_time": false,
+      "action_text": "音乐",
+      "action_text_tpl": "{}",
+      "action_card": false
+    },
+    {
+      "id": "4_1548512325.283",
+      "type": "feed",
+      "offset": 4,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1548512325,
+      "updated_time": 1548512325,
+      "target": {
+        "id": 533942165,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/533942165",
+        "author": {
+          "id": "09edf3249c2630836002e4ea44b6ae4b",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/09edf3249c2630836002e4ea44b6ae4b",
+          "user_type": "people",
+          "url_token": "ru-yan-zi-yi",
+          "name": "施子怡",
+          "headline": "00年，单眼皮、双性恋。喜欢喝冰可乐。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-209373d0d5478c2d41d2c4e586eed3c4_m.jpg",
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1542525591,
+        "updated_time": 1543996620,
+        "voteup_count": 78753,
+        "thanks_count": 17426,
+        "comment_count": 4709,
+        "is_copyable": true,
+        "question": {
+          "id": 294213474,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/294213474",
+          "author": {
+            "id": "0fa3d7eb4aa6f9352da1db0ae8b9fa65",
+            "type": "people",
+            "url": "https://api.zhihu.com/people/0fa3d7eb4aa6f9352da1db0ae8b9fa65",
+            "user_type": "people",
+            "url_token": "erryn-59",
+            "name": "JING",
+            "headline": "bling bling bling",
+            "avatar_url": "https://pic3.zhimg.com/50/v2-91f0eaa6f0454bc710045bb993a9a346_m.jpg",
+            "is_org": false,
+            "gender": 0,
+            "badge": [],
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "女生有男朋友之后才知道的事情有哪些？",
+          "created": 1536648965,
+          "answer_count": 8877,
+          "follower_count": 90980,
+          "comment_count": 79,
+          "bound_topic_ids": [
+            3885,
+            4729,
+            12262,
+            83626,
+            118757
+          ],
+          "is_following": false,
+          "excerpt": "镜像问题：https://www.zhihu.com/question/295512496"
+        },
+        "thumbnail": "",
+        "excerpt": "1. 中层男性对于向上爬的欲望，和底层男性对于繁衍的欲望是相同的。 底层男性会为了繁衍，与没有感情基础的女人结婚，中层男性也会为了晋升，与没有感情基础的女人结合。 2. 男性对于情感的需求远没有女性强烈，婚姻生活占据大多数女性未来规划的大部分，而对大…",
+        "excerpt_new": "1. 中层男性对于向上爬的欲望，和底层男性对于繁衍的欲望是相同的。 底层男性会为了繁衍，与没有感情基础的女人结婚，中层男性也会为了晋升，与没有感情基础的女人结合。 2. 男性对于情感的需求远没有女性强烈，婚姻生活占据大多数女性未来规划的大部分，而对大…",
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 533942165}",
+      "uninterest_reasons": [
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19799808",
+          "object_type": "topic",
+          "reason_text": "男生女生"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19900175",
+          "object_type": "topic",
+          "reason_text": "穿衣打扮"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19561847",
+          "object_type": "topic",
+          "reason_text": "女生"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19587052",
+          "object_type": "topic",
+          "reason_text": "经历"
+        },
+        {
+          "reason_id": 2,
+          "reason_type": "creator",
+          "object_token": "09edf3249c2630836002e4ea44b6ae4b",
+          "object_type": "people",
+          "reason_text": "施子怡创作的内容"
+        }
+      ],
+      "attached_info": "CnEIyuuCkar41KBUEAQaCTEyNzE0ODk5NyCXpcTfBSih5wQw5SRABEoKCgFIEgEwGAAgAFIOaG90X2FkZF9hbnN3ZXJaCDI3NjU3OTk2cgk1MzM5NDIxNjV4AYoBCTI5NDIxMzQ3NKoBCXJlY29tbWVuZA==",
+      "actors": [
+        {
+          "id": "19561847",
+          "type": "topic",
+          "url": "https://api.zhihu.com/topics/19561847",
+          "avatar_url": "https://pic2.zhimg.com/50/11fe059c4_s.jpg",
+          "name": "女生",
+          "excerpt": "",
+          "introduction": "",
+          "meta": {
+            "id": 1023617854284791800,
+            "category": "n_wiki",
+            "type": "metapedia"
+          }
+        }
+      ],
+      "show_actor_time": false,
+      "action_text": "女生",
+      "action_text_tpl": "{}",
+      "action_card": false
+    },
+    {
+      "id": "5_1548512325.184",
+      "type": "feed",
+      "offset": 5,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1548512325,
+      "updated_time": 1548512325,
+      "target": {
+        "id": 549219113,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/549219113",
+        "author": {
+          "id": "46434180b257f06a2616522729e5a79c",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/46434180b257f06a2616522729e5a79c",
+          "user_type": "people",
+          "url_token": "sean-yenan",
+          "name": "Sean Ye",
+          "headline": "公众号：瞎说职场 HRinsight",
+          "avatar_url": "https://pic3.zhimg.com/50/v2-0d8fae9c0958d4b83478dfc7f9fc383f_m.jpg",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "优秀回答者",
+              "topics": [],
+              "topic_names": [
+                "人力资源（HR）"
+              ]
+            }
+          ],
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1544434004,
+        "updated_time": 1545477932,
+        "voteup_count": 12764,
+        "thanks_count": 2855,
+        "comment_count": 979,
+        "is_copyable": false,
+        "question": {
+          "id": 296132052,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/296132052",
+          "author": {
+            "id": "0",
+            "type": "people",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic4.zhimg.com/aadd7b895_m.jpg"
+          },
+          "title": "互联网行业（2018 年）的裁员潮是否已经开始了？",
+          "created": 1537932528,
+          "answer_count": 826,
+          "follower_count": 21215,
+          "comment_count": 32,
+          "bound_topic_ids": [
+            1,
+            99,
+            1657,
+            2566,
+            15487
+          ],
+          "is_following": false,
+          "excerpt": "看到媒体也开始说这件事了…普通员工如何扛过去呢？"
+        },
+        "thumbnail": "https://pic2.zhimg.com/50/v2-c737a2bcf9f42eb57f62ed5a065f1cfb_bh.jpg",
+        "excerpt": "首先答题：开始了，而且已经席卷了主流互联网企业，一线停止招聘，二三线开始裁员。 如今还在招人的互联网公司，就是几家现金流非常好的公司，比如头条，自如，蚂蚁金服 在我公众号里，我试探性问了一句，收到了近百条小伙伴的留言。 有人遗憾的离开了： 去年冬…",
+        "excerpt_new": "首先答题：开始了，而且已经席卷了主流互联网企业，一线停止招聘，二三线开始裁员。 如今还在招人的互联网公司，就是几家现金流非常好的公司，比如头条，自如，蚂蚁金服 在我公众号里，我试探性问了一句，收到了近百条小伙伴的留言。 有人遗憾的离开了： 去年冬…",
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 549219113}",
+      "uninterest_reasons": [
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19555189",
+          "object_type": "topic",
+          "reason_text": "人力资源（HR）"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19550517",
+          "object_type": "topic",
+          "reason_text": "互联网"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19557876",
+          "object_type": "topic",
+          "reason_text": "职场"
+        },
+        {
+          "reason_id": 3,
+          "reason_type": "topic",
+          "object_token": "19596680",
+          "object_type": "topic",
+          "reason_text": "裁员"
+        },
+        {
+          "reason_id": 2,
+          "reason_type": "creator",
+          "object_token": "46434180b257f06a2616522729e5a79c",
+          "object_type": "people",
+          "reason_text": "Sean Ye 创作的内容"
+        }
+      ],
+      "attached_info": "CnsIyuuCkar41KBUEAQaCTEyOTkyNjc4MyDU4rjgBSjcYzDTB0AFSgwKA1JFVBIBMBgAIABSF2ZlZWRyZV90b3BpY19hZGRfYW5zd2VyWggyODA4NDI2N3IJNTQ5MjE5MTEzeA6KAQkyOTYxMzIwNTKqAQlyZWNvbW1lbmQ=",
+      "actors": [
+        {
+          "id": "19550225",
+          "type": "topic",
+          "url": "https://api.zhihu.com/topics/19550225",
+          "avatar_url": "https://pic3.zhimg.com/50/d357c4c58_s.jpg",
+          "name": "公司",
+          "excerpt": "",
+          "introduction": "",
+          "meta": {
+            "id": 1023622070181068800,
+            "category": "n_wiki",
+            "type": "metapedia"
+          }
+        }
+      ],
+      "show_actor_time": false,
+      "action_text": "公司",
+      "action_text_tpl": "{}",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "previous": "https://api.zhihu.com/topstory/recommend?session_token=eeb3cf5045b361fe86c12e0f7cbaf25b&page_number=2&limit=6&action=pull&before_id=5",
+    "next": "https://api.zhihu.com/topstory/recommend?session_token=eeb3cf5045b361fe86c12e0f7cbaf25b&page_number=2&limit=6&action=down&after_id=5",
+    "is_end": false
+  },
+  "fresh_text": "关注动态已更新"
+}
