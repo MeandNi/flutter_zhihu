@@ -43,6 +43,10 @@ Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 
 
 
+#### Ui 细节
+
+暂不叙述，期待后续文章总结。项目目前还在更新完善中，预计使用Redux、Sqlflite等技术栈填充数据部分，本项目部分界面及工具类来自[Flutter_CommonApp](https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2FMeandNi%2FFlutter_CommonApp) 。
+
  #### 数据结构
 
 ![](./show/recommend.png)
@@ -50,12 +54,6 @@ Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 ![](./show/idea.png)
 
 ![](./show/question.png)
-
-
-
-#### Ui 细节
-
-暂不叙述，项目目前还在更新完善中，预计使用Redux、Sqlflite等技术栈填充数据部分，本项目部分界面及工具类来自[Flutter_CommonApp](https://github.com/MeandNi/Flutter_CommonApp) 。
 
 #### 第三方框架
 
@@ -72,3 +70,5 @@ Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 #### 鸣谢
 
 感谢那些热爱开源、一起奋斗的朋友们。
+
+值得学习的话，Star哦^_^
