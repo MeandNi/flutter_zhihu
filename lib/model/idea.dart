@@ -6,16 +6,18 @@ class Idea {
   Author author;
   int created_time;
   String content;
-  String imageUrl;
+  String imageurl;
 
   int comment_count;
   int follower_count;
   int favor_count;
 
+
+
   Idea.fromJson(Map data) {
     created_time = data['created_time'];
     content = data['content'];
-    imageUrl = data['imageUrl'];
+    imageurl = data['imageurl'];
 
     comment_count = data['comment_count'];
     follower_count = data['follower_count'];

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_zhihu/campus/CampusPage.dart';
+import 'package:flutter_zhihu/campus/campus_page.dart';
 import 'package:flutter_zhihu/idea/Idea_page.dart';
-import 'package:flutter_zhihu/me/MePage.dart';
-import 'package:flutter_zhihu/message/MessagePage.dart';
+import 'package:flutter_zhihu/me/me_page.dart';
+import 'package:flutter_zhihu/message/message_page.dart';
 import 'package:flutter_zhihu/myhome/home_page.dart';
 
 class HomePage extends StatefulWidget {

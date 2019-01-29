@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zhihu/idea/idea_header.dart';
+import 'package:flutter_zhihu/idea/idea_list.dart';
 import 'package:flutter_zhihu/model/idea.dart';
 import 'package:flutter_zhihu/model/topic.dart';
 import 'package:flutter_zhihu/network/requst.dart';
@@ -42,15 +43,24 @@ class _IdeaPageState extends State<IdeaPage> {
 
   Future<void> fetchData() async {
 
-    var topicJson = await Request.get(action: 'idea_topic');
+    var responseJson = await Request.get(action: 'idea_topic');
+
+    List topicJson = responseJson['topic'];
+    List ideaJson = responseJson['idea'];
 
     List<Topic> topics = [];
     topicJson.forEach((data) {
       topics.add(Topic.fromJson(data));
     });
 
+    List<Idea> ideas = [];
+    ideaJson.forEach((data) {
+      ideas.add(Idea.fromJson(data));
+    });
+
     setState(() {
       this.topics = topics;
+      this.ideas = ideas;
     });
   }
 
@@ -105,9 +115,10 @@ class _IdeaPageState extends State<IdeaPage> {
               controller: scrollController,
               children: <Widget>[
                 IdeaHeader(topics: topics,),
+                IdeaList(ideas: ideas,)
               ],
             ),
-            onRefresh: () {},
+            onRefresh: fetchData,
           ),
           buildNavigationBar(),
         ]),

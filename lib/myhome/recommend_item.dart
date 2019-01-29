@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_zhihu/model/answer.dart';
 import 'package:flutter_zhihu/model/recommend.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
@@ -50,13 +49,9 @@ class RecommendListItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                child: Image(
-                  image: CachedNetworkImageProvider(
-                      recommend.target.author.avatar_url),
-                  width: 15.0,
-                  height: 15.0,
-                ),
                 radius: 15.0,
+                backgroundImage: CachedNetworkImageProvider(
+                    recommend.target.author.avatar_url),
               ),
               SizedBox(
                 width: 10.0,
