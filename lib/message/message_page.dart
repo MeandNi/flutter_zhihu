@@ -13,6 +13,11 @@ class _MessagePageState extends State<MessagePage> {
 
   List<Message> modules = [];
 
+  @override
+  void initState() {
+    fetchData();
+  }
+
   Future<void> fetchData() async {
 
     var responseJson = await Request.get(action: "message");
@@ -35,7 +40,7 @@ class _MessagePageState extends State<MessagePage> {
         actions: <Widget>[
           FlatButton(
             onPressed: null,
-            child: Icon(Icons.add_alert),
+            child: Icon(Icons.add_alert, color: Colors.blue,),
           )
         ],
       ),

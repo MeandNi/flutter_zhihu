@@ -25,7 +25,10 @@ class _WebPageState extends State<WebPage> {
             onTap: () {
               Share.share(this.widget.url);
             },
-            child: Icon(Icons.share),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Icon(Icons.share),
+            ),
           )
         ],
       ),

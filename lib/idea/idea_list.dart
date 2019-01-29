@@ -35,10 +35,12 @@ class IdeaListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+        color: Colors.white,
+        child:
+            Row(crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
           Padding(
             padding: const EdgeInsets.only(top: 8.0),
             child: CircleAvatar(
@@ -74,11 +76,15 @@ class IdeaListItem extends StatelessWidget {
                     ),
                   ),
                 ),
-                Image(image: CachedNetworkImageProvider(item.imageurl)),
+                Image(
+                  image: CachedNetworkImageProvider(item.imageurl),
+                  width: 200.0,
+                  height: 112.0,
+                ),
               ],
             ),
           )
-        ]
+        ]),
       ),
     );
   }

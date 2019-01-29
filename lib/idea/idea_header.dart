@@ -15,50 +15,53 @@ class IdeaHeader extends StatefulWidget {
 class _IdeaHeaderState extends State<IdeaHeader> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
+    return Padding(
+      padding: const EdgeInsets.only(top: 8.0, left: 8.0, right: 8.0, bottom: 0),
+      child: Container(
+        child: Column(
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: <Widget>[
+                  Text(
+                    "想法",
+                    style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+            IdeaBanner(widget.topics),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                Text(
-                  "想法",
-                  style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+                Expanded(
+                  child: Container(
+                    color: Colors.white,
+                    child: FindCard(
+                      icon: Icon(
+                        Icons.business,
+                        color: Colors.redAccent,
+                      ),
+                      title: "热门更新了",
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    color: Colors.white,
+                    child: FindCard(
+                      icon: Icon(
+                        Icons.face,
+                        color: Colors.blue,
+                      ),                    title: "发现知友",
+                    ),
+                  ),
                 ),
               ],
-            ),
-          ),
-          IdeaBanner(widget.topics),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Expanded(
-                child: Container(
-                  color: Colors.white,
-                  child: FindCard(
-                    icon: Icon(
-                      Icons.business,
-                      color: Colors.redAccent,
-                    ),
-                    title: "热门更新了",
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Container(
-                  color: Colors.white,
-                  child: FindCard(
-                    icon: Icon(
-                      Icons.face,
-                      color: Colors.blue,
-                    ),                    title: "发现知友",
-                  ),
-                ),
-              ),
-            ],
-          )
-        ],
+            )
+          ],
+        ),
       ),
     );
   }

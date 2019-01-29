@@ -107,22 +107,19 @@ class _IdeaPageState extends State<IdeaPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Stack(children: [
-          RefreshIndicator(
-            child: ListView(
-              controller: scrollController,
-              children: <Widget>[
-                IdeaHeader(topics: topics,),
-                IdeaList(ideas: ideas,)
-              ],
-            ),
-            onRefresh: fetchData,
+      body: Stack(children: [
+        RefreshIndicator(
+          child: ListView(
+            controller: scrollController,
+            children: <Widget>[
+              IdeaHeader(topics: topics,),
+              IdeaList(ideas: ideas,)
+            ],
           ),
-          buildNavigationBar(),
-        ]),
-      ),
+          onRefresh: fetchData,
+        ),
+        buildNavigationBar(),
+      ]),
     );
   }
 }

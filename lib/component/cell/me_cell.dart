@@ -21,7 +21,7 @@ class MeCell extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Row(
                 children: <Widget>[
-                  Icon(icon),
+                  Icon(icon, color: Colors.deepPurpleAccent,),
                   SizedBox(width: 20),
                   Text(title, style: TextStyle(fontSize: 16)),
                   Expanded(child: Container()),

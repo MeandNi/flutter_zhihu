@@ -8,6 +8,10 @@
 
 
 
+![](./show/show1.gif)
+
+![](./show/show2.gif)
+
 #### 开发环境
 
 ```
