@@ -8,10 +8,6 @@
 
 
 
-![](./show/show1.gif)
-
-![](./show/show2.gif)
-
 #### 开发环境
 
 ```
@@ -48,6 +44,11 @@ Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 
 
 #### Ui 细节
+
+- 自定义透明 Toolbar 随滚动渐变
+
+- 上拉加载更多
+- ......
 
 暂不叙述，期待后续文章总结。项目目前还在更新完善中，预计使用Redux、Sqlflite等技术栈填充数据部分，本项目部分界面及工具类来自[Flutter_CommonApp](https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2FMeandNi%2FFlutter_CommonApp) 。
 
