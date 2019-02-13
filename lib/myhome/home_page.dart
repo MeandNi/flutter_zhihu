@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_zhihu/myhome/hotrank_list.dart';
 import 'package:flutter_zhihu/myhome/myhome_list.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -74,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage>
           tabs: <Widget>[
             new Tab(text: "关注"),
             new Tab(text: "推荐"),
-            new Tab(text: "热情"),
+            new Tab(text: "热榜"),
             new Tab(text: "视频"),
           ],
         ),
@@ -84,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage>
         children: <Widget>[
           MyHomeListView(),
           MyHomeListView(),
-          MyHomeListView(),
+          HotRankList(),
           MyHomeListView(),
         ],
       ),

@@ -6,7 +6,7 @@
 
 ![app展示](./show/showapp2.jpg)
 
-
+![app展示](./show/showapp3.jpg)
 
 #### 开发环境
 
@@ -70,7 +70,7 @@ Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 | **share**                  | **链接分享** |
 | **flutter_webview_plugin** | **WebView**  |
 
-
+正在集成状态管理！
 
 #### 鸣谢
 

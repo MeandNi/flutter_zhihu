@@ -3,38 +3,82 @@ import 'package:flutter_zhihu/component/cell/me_cell.dart';
 import 'package:flutter_zhihu/me/setting_page.dart';
 import 'package:flutter_zhihu/me/me_header.dart';
 import 'package:flutter_zhihu/utils/app_navigator.dart';
+import 'package:path/path.dart';
 
 class MePage extends StatelessWidget {
-  Widget buildCells(BuildContext context) {
+
+  Widget buildItems(BuildContext context) {
     return Container(
-      child: Column(
+      color: Colors.white,
+      child: GridView.count(
+        crossAxisCount: 4,
+        shrinkWrap: true,
         children: <Widget>[
           MeCell(
-            title: '列表1',
-            icon: Icons.access_alarm,
+            title: '学习记录',
+            icon: Icons.school,
             onPressed: () {},
           ),
           MeCell(
-            title: '列表2',
-            icon: Icons.message,
+            title: '已购',
+            icon: Icons.shopping_basket,
             onPressed: () {},
           ),
           MeCell(
-            title: '列表3',
-            icon: Icons.ac_unit,
+            title: '余额礼券',
+            icon: Icons.add_shopping_cart,
             onPressed: () {},
           ),
           MeCell(
-            title: '列表4',
+            title: '读书会',
+            icon: Icons.book,
+            onPressed: () {},
+          ),
+          MeCell(
+            title: '我的书架',
+            icon: Icons.collections_bookmark,
+            onPressed: () {},
+          ),
+          MeCell(
+            title: '下载中心',
+            icon: Icons.file_download,
+            onPressed: () {
+            },
+          ),
+          MeCell(
+            title: '付费咨询',
+            icon: Icons.monetization_on,
+            onPressed: () {
+            },
+          ),
+          MeCell(
+            title: '活动广场',
+            icon: Icons.accessibility,
+            onPressed: () {
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget buildItems2(BuildContext context) {
+    return Container(
+      color: Colors.white,
+      child: GridView.count(
+        crossAxisCount: 4,
+        shrinkWrap: true,
+        children: <Widget>[
+          MeCell(
+            title: '社区建设',
             icon: Icons.add_photo_alternate,
             onPressed: () {},
           ),
           MeCell(
-            title: '更多服务',
+            title: '反馈与帮助',
             icon: Icons.more,
             onPressed: () {},
           ),
-          SizedBox(height: 24.0),
           MeCell(
             title: '设置',
             icon: Icons.confirmation_number,
@@ -90,6 +134,122 @@ class MePage extends StatelessWidget {
     );
   }
 
+  Widget videoCard(BuildContext context) {
+    return new Container(
+        color: Colors.white,
+        margin: const EdgeInsets.only(top: 6.0, bottom: 6.0),
+        padding: const EdgeInsets.only(top: 12.0, bottom: 8.0),
+        child: new Column(
+          children: <Widget>[
+            new Container(
+                margin: const EdgeInsets.only(left: 16.0, bottom: 20.0),
+                child: new Row(
+                  children: <Widget>[
+                    new Container(
+                      child: new CircleAvatar(
+                        radius: 16.0,
+                        child: new Icon(Icons.videocam, color: Colors.white),
+                        backgroundColor: Colors.green,
+                      ),
+                    ),
+                    new Expanded(
+                      child: new Container(
+                        margin: const EdgeInsets.only(left: 8.0),
+                        child: new Text("视频创作", style: new TextStyle(fontSize: 16.0),),
+                      ),
+                    ),
+                    new Container(
+                      child: new FlatButton(
+                          onPressed: (){},
+                          child: Row(
+                            children: <Widget>[
+                              new Text("拍一个", style: new TextStyle(color: Colors.grey),),
+                              Icon(Icons.arrow_forward_ios, color: Colors.grey,size: 16.0,)
+                            ],
+                          )
+                      ),
+                    )
+                  ],
+                )
+            ),
+            new Container(
+              margin: const EdgeInsets.only(left: 16.0),
+              child: new SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: new Row(
+                  children: <Widget>[
+                    new Container(
+                        width: MediaQuery.of(context).size.width / 2.5,
+                        margin: const EdgeInsets.only(right: 6.0),
+                        child: new AspectRatio(
+                            aspectRatio: 4.0 / 2.0,
+                            child: new Container(
+                              foregroundDecoration:new BoxDecoration(
+                                  image: new DecorationImage(
+                                    image: new NetworkImage("https://pic4.zhimg.com/80/v2-8f96f7ada3e63908709b5be10e674dc0_400x224.jpg"),
+                                    centerSlice: new Rect.fromLTRB(270.0, 180.0, 1360.0, 730.0),
+                                  ),
+                                  borderRadius: const BorderRadius.all(const Radius.circular(6.0))
+                              ),
+                            )
+                        )
+                    ),
+                    new Container(
+                        margin: const EdgeInsets.only(right: 6.0),
+                        width: MediaQuery.of(context).size.width / 2.5,
+                        child: new AspectRatio(
+                            aspectRatio: 4.0 / 2.0,
+                            child: new Container(
+                              foregroundDecoration:new BoxDecoration(
+                                  image: new DecorationImage(
+                                    image: new NetworkImage("https://pic4.zhimg.com/50/v2-5b0249fa20a164cc398accdf6d35d192_400x224.jpg"),
+                                    centerSlice: new Rect.fromLTRB(270.0, 180.0, 1360.0, 730.0),
+                                  ),
+                                  borderRadius: const BorderRadius.all(const Radius.circular(6.0))
+                              ),
+                            )
+                        )
+                    ),
+                    new Container(
+                        margin: const EdgeInsets.only(right: 6.0),
+                        width: MediaQuery.of(context).size.width / 2.5,
+                        child: new AspectRatio(
+                            aspectRatio: 4.0 / 2.0,
+                            child: new Container(
+                              foregroundDecoration:new BoxDecoration(
+                                  image: new DecorationImage(
+                                    image: new NetworkImage("https://pic3.zhimg.com/50/v2-1a6124605fa761a6c20da9f83a10530b_400x224.jpg"),
+                                    centerSlice: new Rect.fromLTRB(270.0, 180.0, 1360.0, 730.0),
+                                  ),
+                                  borderRadius: const BorderRadius.all(const Radius.circular(6.0))
+                              ),
+                            )
+                        )
+                    ),
+                    new Container(
+                        width: MediaQuery.of(context).size.width / 2.5,
+                        child: new AspectRatio(
+                            aspectRatio: 4.0 / 2.0,
+                            child: new Container(
+                              foregroundDecoration:new BoxDecoration(
+                                  image: new DecorationImage(
+                                    image: new NetworkImage("https://pic4.zhimg.com/50/v2-c890cea29ebc2a0ed32e27796f1f4895_400x224.jpg"),
+                                    centerSlice: new Rect.fromLTRB(270.0, 180.0, 1360.0, 730.0),
+                                  ),
+                                  borderRadius: const BorderRadius.all(const Radius.circular(6.0))
+                              ),
+                            )
+                        )
+                    )
+                  ],
+                ),
+              ),
+            )
+          ],
+        )
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -100,10 +260,12 @@ class MePage extends StatelessWidget {
       body: Container(
         child: ListView(
           children: <Widget>[
-            SizedBox(height: 10.0,),
             MeHeader(),
-            SizedBox(height: 10),
-            buildCells(context),
+            SizedBox(height: 12),
+            buildItems(context),
+            SizedBox(height: 12),
+            buildItems2(context),
+            videoCard(context)
           ],
         ),
       ),

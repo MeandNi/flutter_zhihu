@@ -78,8 +78,8 @@ class _MyHomeListViewState extends State<MyHomeListView> {
 
   @override
   void dispose(){
-    page = 1;
     _scrollController.dispose();
+    super.dispose();
   }
 
   Widget buildModule(BuildContext context, Recommend module) {
