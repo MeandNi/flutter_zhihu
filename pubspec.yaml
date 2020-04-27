@@ -12,7 +12,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   dio: ^1.0.13
-  cached_network_image: ^1.1.1
+  cached_network_image: ^2.1.0+1
   carousel_slider: ^1.0.1
   flutter_webview_plugin: ^0.3.0+2
   share: ^0.5.3
