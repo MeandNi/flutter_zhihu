@@ -77,3 +77,5 @@ Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 感谢那些热爱开源、一起奋斗的朋友们。
 
 值得学习的话，Star哦^_^
+
+更多实例/新书开源：https://github.com/MeandNi/flutter_source_code
